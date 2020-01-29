@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12FDB7B23E238BC00500713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7A23E238BC00500713 /* AppDelegate.swift */; };
+		C12FDB7D23E238BC00500713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7C23E238BC00500713 /* SceneDelegate.swift */; };
+		C12FDB7F23E238BC00500713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7E23E238BC00500713 /* ContentView.swift */; };
+		C12FDB8123E238BF00500713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12FDB8023E238BF00500713 /* Assets.xcassets */; };
+		C12FDB8423E238BF00500713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12FDB8323E238BF00500713 /* Preview Assets.xcassets */; };
+		C12FDB8723E238BF00500713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12FDB8523E238BF00500713 /* LaunchScreen.storyboard */; };
+		C12FDB9223E238BF00500713 /* Magenic_EmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9123E238BF00500713 /* Magenic_EmployeeTests.swift */; };
+		C12FDB9D23E238BF00500713 /* Magenic_EmployeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C12FDB8E23E238BF00500713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12FDB6F23E238BC00500713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12FDB7623E238BC00500713;
+			remoteInfo = "Magenic Employee";
+		};
+		C12FDB9923E238BF00500713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12FDB6F23E238BC00500713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12FDB7623E238BC00500713;
+			remoteInfo = "Magenic Employee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C12FDB7723E238BC00500713 /* Magenic Employee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magenic Employee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12FDB7A23E238BC00500713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12FDB7C23E238BC00500713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C12FDB7E23E238BC00500713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C12FDB8023E238BF00500713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12FDB8323E238BF00500713 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C12FDB8623E238BF00500713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12FDB8823E238BF00500713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12FDB8D23E238BF00500713 /* Magenic EmployeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magenic EmployeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12FDB9123E238BF00500713 /* Magenic_EmployeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magenic_EmployeeTests.swift; sourceTree = "<group>"; };
+		C12FDB9323E238BF00500713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12FDB9823E238BF00500713 /* Magenic EmployeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magenic EmployeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magenic_EmployeeUITests.swift; sourceTree = "<group>"; };
+		C12FDB9E23E238BF00500713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12FDB7423E238BC00500713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB8A23E238BF00500713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB9523E238BF00500713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12FDB6E23E238BC00500713 = {
+			isa = PBXGroup;
+			children = (
+				C12FDB7923E238BC00500713 /* Magenic Employee */,
+				C12FDB9023E238BF00500713 /* Magenic EmployeeTests */,
+				C12FDB9B23E238BF00500713 /* Magenic EmployeeUITests */,
+				C12FDB7823E238BC00500713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12FDB7823E238BC00500713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12FDB7723E238BC00500713 /* Magenic Employee.app */,
+				C12FDB8D23E238BF00500713 /* Magenic EmployeeTests.xctest */,
+				C12FDB9823E238BF00500713 /* Magenic EmployeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12FDB7923E238BC00500713 /* Magenic Employee */ = {
+			isa = PBXGroup;
+			children = (
+				C12FDB7A23E238BC00500713 /* AppDelegate.swift */,
+				C12FDB7C23E238BC00500713 /* SceneDelegate.swift */,
+				C12FDB7E23E238BC00500713 /* ContentView.swift */,
+				C12FDB8023E238BF00500713 /* Assets.xcassets */,
+				C12FDB8523E238BF00500713 /* LaunchScreen.storyboard */,
+				C12FDB8823E238BF00500713 /* Info.plist */,
+				C12FDB8223E238BF00500713 /* Preview Content */,
+			);
+			path = "Magenic Employee";
+			sourceTree = "<group>";
+		};
+		C12FDB8223E238BF00500713 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C12FDB8323E238BF00500713 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C12FDB9023E238BF00500713 /* Magenic EmployeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C12FDB9123E238BF00500713 /* Magenic_EmployeeTests.swift */,
+				C12FDB9323E238BF00500713 /* Info.plist */,
+			);
+			path = "Magenic EmployeeTests";
+			sourceTree = "<group>";
+		};
+		C12FDB9B23E238BF00500713 /* Magenic EmployeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */,
+				C12FDB9E23E238BF00500713 /* Info.plist */,
+			);
+			path = "Magenic EmployeeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12FDB7623E238BC00500713 /* Magenic Employee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12FDBA123E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic Employee" */;
+			buildPhases = (
+				C12FDB7323E238BC00500713 /* Sources */,
+				C12FDB7423E238BC00500713 /* Frameworks */,
+				C12FDB7523E238BC00500713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magenic Employee";
+			productName = "Magenic Employee";
+			productReference = C12FDB7723E238BC00500713 /* Magenic Employee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C12FDB8C23E238BF00500713 /* Magenic EmployeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12FDBA423E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeTests" */;
+			buildPhases = (
+				C12FDB8923E238BF00500713 /* Sources */,
+				C12FDB8A23E238BF00500713 /* Frameworks */,
+				C12FDB8B23E238BF00500713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12FDB8F23E238BF00500713 /* PBXTargetDependency */,
+			);
+			name = "Magenic EmployeeTests";
+			productName = "Magenic EmployeeTests";
+			productReference = C12FDB8D23E238BF00500713 /* Magenic EmployeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C12FDB9723E238BF00500713 /* Magenic EmployeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12FDBA723E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeUITests" */;
+			buildPhases = (
+				C12FDB9423E238BF00500713 /* Sources */,
+				C12FDB9523E238BF00500713 /* Frameworks */,
+				C12FDB9623E238BF00500713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12FDB9A23E238BF00500713 /* PBXTargetDependency */,
+			);
+			name = "Magenic EmployeeUITests";
+			productName = "Magenic EmployeeUITests";
+			productReference = C12FDB9823E238BF00500713 /* Magenic EmployeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12FDB6F23E238BC00500713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jason Edstrom";
+				TargetAttributes = {
+					C12FDB7623E238BC00500713 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C12FDB8C23E238BF00500713 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C12FDB7623E238BC00500713;
+					};
+					C12FDB9723E238BF00500713 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C12FDB7623E238BC00500713;
+					};
+				};
+			};
+			buildConfigurationList = C12FDB7223E238BC00500713 /* Build configuration list for PBXProject "Magenic Employee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12FDB6E23E238BC00500713;
+			productRefGroup = C12FDB7823E238BC00500713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12FDB7623E238BC00500713 /* Magenic Employee */,
+				C12FDB8C23E238BF00500713 /* Magenic EmployeeTests */,
+				C12FDB9723E238BF00500713 /* Magenic EmployeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12FDB7523E238BC00500713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12FDB8723E238BF00500713 /* LaunchScreen.storyboard in Resources */,
+				C12FDB8423E238BF00500713 /* Preview Assets.xcassets in Resources */,
+				C12FDB8123E238BF00500713 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB8B23E238BF00500713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB9623E238BF00500713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12FDB7323E238BC00500713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12FDB7B23E238BC00500713 /* AppDelegate.swift in Sources */,
+				C12FDB7D23E238BC00500713 /* SceneDelegate.swift in Sources */,
+				C12FDB7F23E238BC00500713 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB8923E238BF00500713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12FDB9223E238BF00500713 /* Magenic_EmployeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12FDB9423E238BF00500713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12FDB9D23E238BF00500713 /* Magenic_EmployeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12FDB8F23E238BF00500713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12FDB7623E238BC00500713 /* Magenic Employee */;
+			targetProxy = C12FDB8E23E238BF00500713 /* PBXContainerItemProxy */;
+		};
+		C12FDB9A23E238BF00500713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12FDB7623E238BC00500713 /* Magenic Employee */;
+			targetProxy = C12FDB9923E238BF00500713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C12FDB8523E238BF00500713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12FDB8623E238BF00500713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12FDB9F23E238BF00500713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12FDBA023E238BF00500713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12FDBA223E238BF00500713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Magenic Employee/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Magenic Employee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-Employee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12FDBA323E238BF00500713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Magenic Employee/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Magenic Employee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-Employee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C12FDBA523E238BF00500713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				INFOPLIST_FILE = "Magenic EmployeeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-EmployeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magenic Employee.app/Magenic Employee";
+			};
+			name = Debug;
+		};
+		C12FDBA623E238BF00500713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				INFOPLIST_FILE = "Magenic EmployeeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-EmployeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magenic Employee.app/Magenic Employee";
+			};
+			name = Release;
+		};
+		C12FDBA823E238BF00500713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				INFOPLIST_FILE = "Magenic EmployeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-EmployeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magenic Employee";
+			};
+			name = Debug;
+		};
+		C12FDBA923E238BF00500713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BUU48BDND;
+				INFOPLIST_FILE = "Magenic EmployeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magenic.automation.Magenic-EmployeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magenic Employee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12FDB7223E238BC00500713 /* Build configuration list for PBXProject "Magenic Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12FDB9F23E238BF00500713 /* Debug */,
+				C12FDBA023E238BF00500713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12FDBA123E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic Employee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12FDBA223E238BF00500713 /* Debug */,
+				C12FDBA323E238BF00500713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12FDBA423E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12FDBA523E238BF00500713 /* Debug */,
+				C12FDBA623E238BF00500713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12FDBA723E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12FDBA823E238BF00500713 /* Debug */,
+				C12FDBA923E238BF00500713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12FDB6F23E238BC00500713 /* Project object */;
+}
