@@ -8,6 +8,7 @@ target 'Magenic Employee' do
   use_frameworks!
 
   # Pods for Magenic Employee
+  pod "Alamofire"
 
   target 'Magenic EmployeeTests' do
     inherit! :search_paths

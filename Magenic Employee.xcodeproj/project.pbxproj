@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C3BFA086CB0B30F5ED4A10 /* Pods_Magenic_EmployeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C541F10AA974FDC6EEF28 /* Pods_Magenic_EmployeeTests.framework */; };
+		8E6553771BA7385E04341871 /* Pods_Magenic_Employee_Magenic_EmployeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5A730D03B7859DDDA0852C /* Pods_Magenic_Employee_Magenic_EmployeeUITests.framework */; };
 		C12FDB7B23E238BC00500713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7A23E238BC00500713 /* AppDelegate.swift */; };
 		C12FDB7D23E238BC00500713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7C23E238BC00500713 /* SceneDelegate.swift */; };
 		C12FDB7F23E238BC00500713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB7E23E238BC00500713 /* ContentView.swift */; };
@@ -15,6 +17,7 @@
 		C12FDB8723E238BF00500713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12FDB8523E238BF00500713 /* LaunchScreen.storyboard */; };
 		C12FDB9223E238BF00500713 /* Magenic_EmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9123E238BF00500713 /* Magenic_EmployeeTests.swift */; };
 		C12FDB9D23E238BF00500713 /* Magenic_EmployeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */; };
+		C44F766BC0EC2A1420DB58C5 /* Pods_Magenic_Employee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9933FE8EA6FB2DB067E881AB /* Pods_Magenic_Employee.framework */; };
 		D3A67284DDB80BFAAD35FA11 /* EmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A679DC5A2470C32528C630 /* EmployeeService.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E5A730D03B7859DDDA0852C /* Pods_Magenic_Employee_Magenic_EmployeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magenic_Employee_Magenic_EmployeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0E2B142182E586FA538FB5 /* Pods-Magenic Employee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic Employee.debug.xcconfig"; path = "Target Support Files/Pods-Magenic Employee/Pods-Magenic Employee.debug.xcconfig"; sourceTree = "<group>"; };
+		70D226B3AC2ED18F6CE5F86C /* Pods-Magenic Employee-Magenic EmployeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic Employee-Magenic EmployeeUITests.release.xcconfig"; path = "Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7666869C57F0B7B5495A905E /* Pods-Magenic Employee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic Employee.release.xcconfig"; path = "Target Support Files/Pods-Magenic Employee/Pods-Magenic Employee.release.xcconfig"; sourceTree = "<group>"; };
+		9933FE8EA6FB2DB067E881AB /* Pods_Magenic_Employee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magenic_Employee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12FDB7723E238BC00500713 /* Magenic Employee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magenic Employee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12FDB7A23E238BC00500713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C12FDB7C23E238BC00500713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +59,11 @@
 		C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magenic_EmployeeUITests.swift; sourceTree = "<group>"; };
 		C12FDB9E23E238BF00500713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1843E3923E34A99001D93CC /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		C2AB5E4A465DDC4D8453B92E /* Pods-Magenic EmployeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic EmployeeTests.debug.xcconfig"; path = "Target Support Files/Pods-Magenic EmployeeTests/Pods-Magenic EmployeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DC6147F3E7F4DF3A49B550 /* Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3A679DC5A2470C32528C630 /* EmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeService.swift; sourceTree = "<group>"; };
+		D83C541F10AA974FDC6EEF28 /* Pods_Magenic_EmployeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magenic_EmployeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DCAA23D2F21B66DC6F35E2 /* Pods-Magenic EmployeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic EmployeeTests.release.xcconfig"; path = "Target Support Files/Pods-Magenic EmployeeTests/Pods-Magenic EmployeeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44F766BC0EC2A1420DB58C5 /* Pods_Magenic_Employee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C3BFA086CB0B30F5ED4A10 /* Pods_Magenic_EmployeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +87,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6553771BA7385E04341871 /* Pods_Magenic_Employee_Magenic_EmployeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2515FB3E77A7AC6FF04DCB32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E0E2B142182E586FA538FB5 /* Pods-Magenic Employee.debug.xcconfig */,
+				7666869C57F0B7B5495A905E /* Pods-Magenic Employee.release.xcconfig */,
+				C5DC6147F3E7F4DF3A49B550 /* Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig */,
+				70D226B3AC2ED18F6CE5F86C /* Pods-Magenic Employee-Magenic EmployeeUITests.release.xcconfig */,
+				C2AB5E4A465DDC4D8453B92E /* Pods-Magenic EmployeeTests.debug.xcconfig */,
+				E9DCAA23D2F21B66DC6F35E2 /* Pods-Magenic EmployeeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C12FDB6E23E238BC00500713 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +116,8 @@
 				C12FDB9023E238BF00500713 /* Magenic EmployeeTests */,
 				C12FDB9B23E238BF00500713 /* Magenic EmployeeUITests */,
 				C12FDB7823E238BC00500713 /* Products */,
+				2515FB3E77A7AC6FF04DCB32 /* Pods */,
+				E501F8E14E6663D4EE5A84CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +188,16 @@
 			path = Employee;
 			sourceTree = "<group>";
 		};
+		E501F8E14E6663D4EE5A84CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9933FE8EA6FB2DB067E881AB /* Pods_Magenic_Employee.framework */,
+				3E5A730D03B7859DDDA0852C /* Pods_Magenic_Employee_Magenic_EmployeeUITests.framework */,
+				D83C541F10AA974FDC6EEF28 /* Pods_Magenic_EmployeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C12FDBA123E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic Employee" */;
 			buildPhases = (
+				85A66E6C3200A735451E4038 /* [CP] Check Pods Manifest.lock */,
 				C12FDB7323E238BC00500713 /* Sources */,
 				C12FDB7423E238BC00500713 /* Frameworks */,
 				C12FDB7523E238BC00500713 /* Resources */,
+				1D2B409B8AD1C7BA8B348581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C12FDBA423E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeTests" */;
 			buildPhases = (
+				2CD9CEFCCC71F477E2DFB03A /* [CP] Check Pods Manifest.lock */,
 				C12FDB8923E238BF00500713 /* Sources */,
 				C12FDB8A23E238BF00500713 /* Frameworks */,
 				C12FDB8B23E238BF00500713 /* Resources */,
@@ -199,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C12FDBA723E238BF00500713 /* Build configuration list for PBXNativeTarget "Magenic EmployeeUITests" */;
 			buildPhases = (
+				43DFCFD1292F9FBF037353F9 /* [CP] Check Pods Manifest.lock */,
 				C12FDB9423E238BF00500713 /* Sources */,
 				C12FDB9523E238BF00500713 /* Frameworks */,
 				C12FDB9623E238BF00500713 /* Resources */,
+				6168E84FBF1FB27CE852B9F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,6 +328,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2B409B8AD1C7BA8B348581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee/Pods-Magenic Employee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee/Pods-Magenic Employee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee/Pods-Magenic Employee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD9CEFCCC71F477E2DFB03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magenic EmployeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43DFCFD1292F9FBF037353F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magenic Employee-Magenic EmployeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6168E84FBF1FB27CE852B9F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A66E6C3200A735451E4038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magenic Employee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C12FDB7323E238BC00500713 /* Sources */ = {
@@ -454,6 +603,7 @@
 		};
 		C12FDBA223E238BF00500713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0E2B142182E586FA538FB5 /* Pods-Magenic Employee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +624,7 @@
 		};
 		C12FDBA323E238BF00500713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7666869C57F0B7B5495A905E /* Pods-Magenic Employee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +645,7 @@
 		};
 		C12FDBA523E238BF00500713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2AB5E4A465DDC4D8453B92E /* Pods-Magenic EmployeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +668,7 @@
 		};
 		C12FDBA623E238BF00500713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DCAA23D2F21B66DC6F35E2 /* Pods-Magenic EmployeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +691,7 @@
 		};
 		C12FDBA823E238BF00500713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DC6147F3E7F4DF3A49B550 /* Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +712,7 @@
 		};
 		C12FDBA923E238BF00500713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D226B3AC2ED18F6CE5F86C /* Pods-Magenic Employee-Magenic EmployeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
