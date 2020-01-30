@@ -4,3 +4,9 @@
 //
 
 import Foundation
+
+enum API {
+    static var baseURL: URL {
+        return try! URL(string: "http://" + Configuration.value(for: "API_BASE_URL"))!
+    }
+}
