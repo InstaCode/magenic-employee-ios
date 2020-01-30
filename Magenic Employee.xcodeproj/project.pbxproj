@@ -18,7 +18,18 @@
 		C12FDB9223E238BF00500713 /* Magenic_EmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9123E238BF00500713 /* Magenic_EmployeeTests.swift */; };
 		C12FDB9D23E238BF00500713 /* Magenic_EmployeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12FDB9C23E238BF00500713 /* Magenic_EmployeeUITests.swift */; };
 		C44F766BC0EC2A1420DB58C5 /* Pods_Magenic_Employee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9933FE8EA6FB2DB067E881AB /* Pods_Magenic_Employee.framework */; };
+		D3A6702E3A2FB9A7090A0DAE /* StateAbbreviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A675CA7D9ADB405060B280 /* StateAbbreviation.swift */; };
 		D3A67284DDB80BFAAD35FA11 /* EmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A679DC5A2470C32528C630 /* EmployeeService.swift */; };
+		D3A673093B8283076E26D82E /* EmployeeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67AFBBA902017180E99FB /* EmployeeEndpoint.swift */; };
+		D3A673944A228E7796ADDE3F /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67CD75D332DE76DD2D39F /* JSONSchemaSupport.swift */; };
+		D3A67421B8EC91DA1D2CBFCA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67C2B99A008B775BFE44E /* API.swift */; };
+		D3A6766A3355EC222E2319F6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67AC2F0D5EEA6AD3DB8FB /* Configuration.swift */; };
+		D3A67737B48736C8485121CD /* DepartmentObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67F1FCC54D713B5B24FB6 /* DepartmentObj.swift */; };
+		D3A67756AB17D63E9C163030 /* CityObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6742F0207690542097EDF /* CityObj.swift */; };
+		D3A67A144CF8210B25F71DE8 /* EmployeeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6737A38066FA59F63869B /* EmployeeElement.swift */; };
+		D3A67A3AEBB39E202906E4A9 /* DepartmentName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A671D7EA91042D697F7F4D /* DepartmentName.swift */; };
+		D3A67B227A4246222E5A60C2 /* StateObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67B871ACF491E3A073FD9 /* StateObj.swift */; };
+		D3A67BDF3056C4444CFB47C8 /* StateName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6714307BBEB8DB950E58D /* StateName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +72,18 @@
 		C1843E3923E34A99001D93CC /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		C2AB5E4A465DDC4D8453B92E /* Pods-Magenic EmployeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic EmployeeTests.debug.xcconfig"; path = "Target Support Files/Pods-Magenic EmployeeTests/Pods-Magenic EmployeeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5DC6147F3E7F4DF3A49B550 /* Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Magenic Employee-Magenic EmployeeUITests/Pods-Magenic Employee-Magenic EmployeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A6714307BBEB8DB950E58D /* StateName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateName.swift; sourceTree = "<group>"; };
+		D3A671D7EA91042D697F7F4D /* DepartmentName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentName.swift; sourceTree = "<group>"; };
+		D3A6737A38066FA59F63869B /* EmployeeElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeElement.swift; sourceTree = "<group>"; };
+		D3A6742F0207690542097EDF /* CityObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityObj.swift; sourceTree = "<group>"; };
+		D3A675CA7D9ADB405060B280 /* StateAbbreviation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateAbbreviation.swift; sourceTree = "<group>"; };
 		D3A679DC5A2470C32528C630 /* EmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeService.swift; sourceTree = "<group>"; };
+		D3A67AC2F0D5EEA6AD3DB8FB /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		D3A67AFBBA902017180E99FB /* EmployeeEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeEndpoint.swift; sourceTree = "<group>"; };
+		D3A67B871ACF491E3A073FD9 /* StateObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateObj.swift; sourceTree = "<group>"; };
+		D3A67C2B99A008B775BFE44E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D3A67CD75D332DE76DD2D39F /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
+		D3A67F1FCC54D713B5B24FB6 /* DepartmentObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentObj.swift; sourceTree = "<group>"; };
 		D83C541F10AA974FDC6EEF28 /* Pods_Magenic_EmployeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magenic_EmployeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DCAA23D2F21B66DC6F35E2 /* Pods-Magenic EmployeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magenic EmployeeTests.release.xcconfig"; path = "Target Support Files/Pods-Magenic EmployeeTests/Pods-Magenic EmployeeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +164,7 @@
 				C12FDB8823E238BF00500713 /* Info.plist */,
 				C12FDB8223E238BF00500713 /* Preview Content */,
 				D3A67EE62445EE17A96C9157 /* Employee */,
+				D3A67883B8E2EED7CF5A6874 /* ServiceUtilities */,
 			);
 			path = "Magenic Employee";
 			sourceTree = "<group>";
@@ -172,9 +195,26 @@
 			path = "Magenic EmployeeUITests";
 			sourceTree = "<group>";
 		};
+		D3A67883B8E2EED7CF5A6874 /* ServiceUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3A67AC2F0D5EEA6AD3DB8FB /* Configuration.swift */,
+				D3A67C2B99A008B775BFE44E /* API.swift */,
+			);
+			path = ServiceUtilities;
+			sourceTree = "<group>";
+		};
 		D3A6790988A470F496EFB350 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3A6742F0207690542097EDF /* CityObj.swift */,
+				D3A671D7EA91042D697F7F4D /* DepartmentName.swift */,
+				D3A67F1FCC54D713B5B24FB6 /* DepartmentObj.swift */,
+				D3A6737A38066FA59F63869B /* EmployeeElement.swift */,
+				D3A67CD75D332DE76DD2D39F /* JSONSchemaSupport.swift */,
+				D3A675CA7D9ADB405060B280 /* StateAbbreviation.swift */,
+				D3A6714307BBEB8DB950E58D /* StateName.swift */,
+				D3A67B871ACF491E3A073FD9 /* StateObj.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +224,7 @@
 			children = (
 				D3A679DC5A2470C32528C630 /* EmployeeService.swift */,
 				D3A6790988A470F496EFB350 /* Model */,
+				D3A67AFBBA902017180E99FB /* EmployeeEndpoint.swift */,
 			);
 			path = Employee;
 			sourceTree = "<group>";
@@ -441,6 +482,17 @@
 				C12FDB7D23E238BC00500713 /* SceneDelegate.swift in Sources */,
 				C12FDB7F23E238BC00500713 /* ContentView.swift in Sources */,
 				D3A67284DDB80BFAAD35FA11 /* EmployeeService.swift in Sources */,
+				D3A6766A3355EC222E2319F6 /* Configuration.swift in Sources */,
+				D3A67421B8EC91DA1D2CBFCA /* API.swift in Sources */,
+				D3A673093B8283076E26D82E /* EmployeeEndpoint.swift in Sources */,
+				D3A67756AB17D63E9C163030 /* CityObj.swift in Sources */,
+				D3A67A3AEBB39E202906E4A9 /* DepartmentName.swift in Sources */,
+				D3A67737B48736C8485121CD /* DepartmentObj.swift in Sources */,
+				D3A67A144CF8210B25F71DE8 /* EmployeeElement.swift in Sources */,
+				D3A673944A228E7796ADDE3F /* JSONSchemaSupport.swift in Sources */,
+				D3A6702E3A2FB9A7090A0DAE /* StateAbbreviation.swift in Sources */,
+				D3A67BDF3056C4444CFB47C8 /* StateName.swift in Sources */,
+				D3A67B227A4246222E5A60C2 /* StateObj.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
