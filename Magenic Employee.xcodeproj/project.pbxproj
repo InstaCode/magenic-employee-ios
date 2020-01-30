@@ -141,10 +141,18 @@
 			path = "Magenic EmployeeUITests";
 			sourceTree = "<group>";
 		};
+		D3A6790988A470F496EFB350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D3A67EE62445EE17A96C9157 /* Employee */ = {
 			isa = PBXGroup;
 			children = (
 				D3A679DC5A2470C32528C630 /* EmployeeService.swift */,
+				D3A6790988A470F496EFB350 /* Model */,
 			);
 			path = Employee;
 			sourceTree = "<group>";
